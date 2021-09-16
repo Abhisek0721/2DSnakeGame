@@ -93,7 +93,7 @@ def RunGame():
 
 
             
-            if int(score)>int(check_Hiscore):                
+            if (str(score) > check_Hiscore):                
                 playMusic2=game.mixer.Sound(r"./sound/music.wav")
                 playMusic2.play()
                 playMusic2.stop()
